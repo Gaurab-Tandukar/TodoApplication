@@ -1,0 +1,67 @@
+## .NET / ASP.NET Core
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Publish / deployment output
+**/Properties/PublishProfiles/*.pubxml
+**/Properties/PublishProfiles/*.pubxml.user
+publish/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Rider/Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Local secrets / config overrides — never commit real connection strings
+appsettings.Development.json
+appsettings.*.local.json
+secrets.json
+*.pfx
+
+# EF Core migration snapshots you may want to keep — comment out if so
+# Migrations/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment / user-specific
+*.env
+.env.local
+
+# Crash dumps
+*.dmp
